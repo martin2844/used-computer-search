@@ -6,9 +6,10 @@ const sendDifData = require('./cron-jobs/mail-differences');
  
 cron.schedule('* 5 * * *', () => {
   console.log('Running at 5 am');
+  sendDifData();
 });
 
-sendDifData();
+
 
 //body parser necessary to parse body for express
 const bodyParser = require('body-parser')
