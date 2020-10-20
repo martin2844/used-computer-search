@@ -3,9 +3,10 @@ const path = require('path');
 const app = express();
 const cron = require('node-cron');
 const sendDifData = require('./cron-jobs/mail-differences');
- 
-cron.schedule('* 5 * * *', () => {
-  console.log('Running at 5 am');
+const logger = require('./utils/logger')(module)
+
+cron.schedule('* 12 * * *', () => {
+  logger.info('Running at 12pm');
   sendDifData();
 });
 
@@ -24,7 +25,7 @@ mongoose.connect( "mongodb://localhost:27017/thinkpad", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
    }).then(() => {
-    console.log('connected to database');
+    logger.info('connected to database');
 });
 
 app.use("/api/comparetodb", require("./routes/search"));
@@ -34,5 +35,5 @@ app.use("/api/data", require("./routes/db"))
 
 const PORT = process.env.PORT || 5001; 
 app.listen(PORT, () => {
-    console.log("Server started @ port" + PORT);
+    logger.info("Server started @ port" + PORT)
 });

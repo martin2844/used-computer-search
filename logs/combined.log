@@ -13,3 +13,5 @@
 2020-10-19T14:53:24.809Z [cron-jobs\mail-differences.js] info: There was a total of 1 queries with differences found
 2020-10-19T14:53:56.131Z [cron-jobs\mail-differences.js] info: There was a total of 1 queries with differences found
 2020-10-19T14:55:18.610Z [cron-jobs\mail-differences.js] info: There were no differences found
+2020-10-20T12:56:40.044Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-10-20T12:56:40.062Z [thinkpad-back-only\app.js] info: connected to database
