@@ -14,6 +14,9 @@ const CompareSchema = new Schema({
    data: {
        type: Array,
        required: true
+   },
+   date: {
+       type: Date
    }
 });
 

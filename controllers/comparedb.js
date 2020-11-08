@@ -61,7 +61,7 @@ const processData = async (term, arrayToStore) => {
     const checkDB = async () => {
         console.log("@@@@@@@ CHECKING DB @@@@@@@")
         try {
-            const query = await Compare.findOne({query: term }, (err, query) => {
+            const query = await Compare.findOne({query: term, type: "scratch"}, (err, query) => {
                 return query;
             });
             
@@ -109,22 +109,23 @@ const processData = async (term, arrayToStore) => {
                         return query;
                     });
                     console.log(query);
-                    if(query){
-                        console.log("entered difference block")
-                        let filterDifference = {query: term, type:"difference"}
-                        let updateDifference = {data: difference}
-                        let replaceDifference = await Compare.findOneAndUpdate(filterDifference, updateDifference, {new: true});
-                        return replaceDifference;
-                    } else {
+                    // if(query){
+                    //     console.log("entered difference block")
+                    //     let filterDifference = {query: term, type:"difference"}
+                    //     let updateDifference = {data: difference}
+                    //     let replaceDifference = await Compare.findOneAndUpdate(filterDifference, updateDifference, {new: true});
+                    //     return replaceDifference;
+                    // } else {
                         console.log("difference else block");
                         const newDifference = new Compare({
                             query: term,
                             type: "difference",
-                            data: difference
+                            data: difference,
+                            date: Date.now()
                         });
                         const newDif = await newDifference.save();
                         return newDif
-                    }
+                    // }
                     
               
                 } catch (error) {
