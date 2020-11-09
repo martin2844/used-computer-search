@@ -1,80 +1,38 @@
-import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import './main.css';
-import Card from '../components/card';
+import Link from 'next/link'
 
+export default function Index(props) {
 
-
-
-
-const Index = () => {
-  const [selector, setSelector] = useState("thinkpad");
-  const [cardData, setCardData] = useState([]);
-  const [thinkpads, setThinkpads] = useState([]);
-
-  const getCardData = async (selector) => {
-    const data = await axios.get(`api/data/all/${selector}`);
-    setCardData(data.data.data);
-  }
-
-  useEffect(() => {
-        axios.get("api/data/terms").then(res => {
-        setThinkpads(res.data);
-        });
-        console.log("rendering")
-        getCardData(selector);
-
-  }, [])
-
-  const sortPriceLow = () => {
-    let sortedData = cardData.slice().sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
-    setCardData(sortedData);
-  }
-
-  const sortCity= () => {
-    let sortedData = cardData.filter((a) => {
-      return a.state === "Buenos Aires"
-    });
-    setCardData(sortedData);
-  }
-
-  const changeThinkpad = (title) => {
-    getCardData(title);
-  }
-
-  const navLinks = thinkpads.map((title) => {
-    return(
-      <div key={title} onClick={() => changeThinkpad(title)} className="titles">
-        {title}
-      </div>
-    )
+  const termMap = props.foo.map((term) => {
+      let urlTerm = term.replace(/ /g, "-");
+      return (
+          <li key={term}>
+             <Link href={`/queries/${urlTerm}`} >
+                 <a>{term}</a>
+             </Link>
+          </li>
+      )
   })
-
-  const displayCards = cardData.map((card) => {
-    return(
-        <Card key={card.id} card={card} />
-    )
-  })
-
 
   return (
-    <>
-     <section className="nav">
-       {navLinks}
-     </section> 
-     <section className="main">
-       <div className="filters">
-          <div onClick={sortPriceLow}>
-            Menor Precio
-          </div>
-          <div onClick={sortCity}>
-            Buenos Aires
-          </div>
-       </div>
-    {displayCards}
-     </section>
-    </>
+      <div>
+        <h1>Checkout all this computers:</h1>
+        <ul>
+           {termMap}
+        </ul>
+      
+      </div>
   )
 }
 
-export default Index
+
+
+export async function getStaticProps(context) {
+  const data = await axios.get("http://localhost:5001/api/data/terms");
+  let terms = data.data;
+  return {
+    props: {
+        foo: terms
+    }, // will be passed to the page component as props
+  }
+}

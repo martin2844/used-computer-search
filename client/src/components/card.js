@@ -1,5 +1,3 @@
-import React from 'react'
-
 const card = (props) => {
     let {card} = props;
     return (
