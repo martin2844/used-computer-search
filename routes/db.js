@@ -48,4 +48,29 @@ router.get("/difference/:term", async (req, res) => {
     res.json(query);
 })
 
+router.get("/differences/:term", async (req, res) => {
+    console.log(req.params.term);
+    let {term} = req.params
+    const query = await Compare.find({query: term, type:"difference"}, (err, query) => {
+        return query;
+    });
+    res.json(query);
+})
+
+router.get("/all-differences/", async (req, res) => {
+    const query = await Compare.find({type:"difference"}, (err, query) => {
+        return query;
+    });
+    res.json(query);
+})
+
+router.get("/difference-doc/:id", async (req, res) => {
+    console.log(req.params.id);
+    let {id} = req.params
+    const query = await Compare.findById(id, (err, query) => {
+        return query;
+    });
+    res.json(query);
+})
+
 module.exports = router;

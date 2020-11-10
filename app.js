@@ -7,10 +7,10 @@ const logger = require('./utils/logger')(module)
 
 cron.schedule('* 12 * * *', () => {
   logger.info('Running at 12pm');
-  sendDifData();
+ 
 });
 
-
+sendDifData();
 
 //body parser necessary to parse body for express
 const bodyParser = require('body-parser')
