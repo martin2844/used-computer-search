@@ -15,3 +15,6 @@ Cron is managed by node-cron
 Mailing is managed by node-mailer    
 Server is managed by express  
 Logging is handled by winston  
+
+
+## Notes - Must build every day for each new difference

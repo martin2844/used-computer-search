@@ -92,3 +92,13 @@ section.main.column {
 .card .bottom {
   margin-top: 1rem;
 }
+
+.flex-col { 
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 15px 0;
+  height: 25px;
+}

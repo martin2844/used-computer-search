@@ -4,13 +4,16 @@ import Card from '../../../components/card'
 
 const Difference = (props) => {
   const router = useRouter()
-  const { id } = router.query
-
-  let computerMap = props.data.data.map((comp) => {
+  
+  let computerMap;
+  if(props.data.data) {
+    computerMap = props.data.data.map((comp) => {
       return(
         <Card key={comp.id} card={comp} />
       )
   })
+  }
+
 
   return(
     <section className="main">

@@ -191,3 +191,117 @@
 2020-11-10T13:43:05.388Z [thinkpad-back-only\app.js] info: Server started @ port5001
 2020-11-10T13:43:05.423Z [thinkpad-back-only\app.js] info: connected to database
 2020-11-10T13:43:05.490Z [cron-jobs\mail-differences.js] info: There was a total of 4 queries with differences found
+2020-11-11T12:12:31.224Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T12:12:31.245Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T12:12:31.289Z [cron-jobs\mail-differences.js] info: There was a total of 4 queries with differences found
+2020-11-11T12:46:12.772Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T12:46:12.836Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T12:46:12.958Z [cron-jobs\mail-differences.js] info: There was a total of 5 queries with differences found
+2020-11-11T15:00:00.006Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:01:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:02:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:03:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:04:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:05:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:06:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:07:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:08:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:09:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:10:00.003Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:11:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:12:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:13:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:14:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:15:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:16:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:17:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:18:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:19:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:20:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:21:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:22:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:23:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:24:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:25:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:26:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:27:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:28:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:29:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:30:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:31:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:32:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:33:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:34:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:35:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:36:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:37:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:38:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:39:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:40:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:41:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:42:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:43:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:44:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:45:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:46:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:47:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:48:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:49:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:50:00.003Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:51:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:52:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:53:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:54:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:55:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:56:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:57:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:58:00.002Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T15:59:00.001Z [thinkpad-back-only\app.js] info: Running at 12pm
+2020-11-11T23:23:01.659Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:23:01.689Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:23:01.750Z [cron-jobs\mail-differences.js] info: There was a total of 6 queries with differences found
+2020-11-11T23:24:14.146Z [routes\search.js] info: searching for term thinkpad
+2020-11-11T23:24:23.801Z [routes\search.js] info: searching for term thinkpad w540
+2020-11-11T23:24:59.640Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:24:59.664Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:24:59.729Z [cron-jobs\mail-differences.js] info: There was a total of 7 queries with differences found
+2020-11-11T23:26:27.137Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:26:27.160Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:26:27.214Z [cron-jobs\mail-differences.js] info: There was a total of 7 queries with differences found
+2020-11-11T23:26:31.326Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:26:31.349Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:26:31.403Z [cron-jobs\mail-differences.js] info: There was a total of 7 queries with differences found
+2020-11-11T23:49:24.160Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:49:24.182Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:49:24.234Z [cron-jobs\mail-differences.js] info: There was a total of 7 queries with differences found
+2020-11-11T23:50:05.904Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:50:05.930Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:50:05.994Z [cron-jobs\mail-differences.js] info: There was a total of 9 queries with differences found
+2020-11-11T23:50:08.974Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:50:08.993Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:50:10.904Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:50:10.937Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:52:03.819Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:52:03.843Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:52:28.956Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:52:28.975Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:52:32.327Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:52:32.347Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:52:47.170Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:52:47.192Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:53:11.661Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:53:11.683Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:53:19.507Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-11T23:53:19.529Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-11T23:53:21.151Z [routes\search.js] info: searching for term Thinkpad w540
+2020-11-12T00:23:19.606Z [routes\search.js] info: searching for term Dell Xps
+2020-11-12T00:24:08.269Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-12T00:24:08.288Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-12T00:24:16.194Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-12T00:24:16.215Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-12T00:24:19.435Z [routes\search.js] info: searching for term Dell Xps
+2020-11-12T00:24:58.608Z [routes\search.js] info: searching for term Dell Xps
+2020-11-12T00:25:28.981Z [routes\search.js] info: searching for term Dell Xps
+2020-11-12T00:25:45.649Z [routes\search.js] info: searching for term Thinkpad T450
+2020-11-12T00:26:27.379Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-12T00:26:27.399Z [thinkpad-back-only\app.js] info: connected to database
