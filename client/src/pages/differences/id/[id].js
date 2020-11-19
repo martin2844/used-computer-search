@@ -1,20 +1,14 @@
-import { useRouter } from 'next/router'
 import axios from 'axios';
 import Card from '../../../components/card'
 
 const Difference = (props) => {
-  const router = useRouter()
-  
-  let computerMap;
-  if(props.data.data) {
-    computerMap = props.data.data.map((comp) => {
+
+    const computerMap = props.data.data.map((comp) => {
       return(
         <Card key={comp.id} card={comp} />
       )
   })
-  }
-
-
+ 
   return(
     <section className="main">
               <p>Page for difference </p>
@@ -31,26 +25,9 @@ const Difference = (props) => {
   ) 
 }
 
-export async function getStaticPaths() {
-  //Acà se hace todo el mapeo
-  // https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
-  const data = await axios.get("http://localhost:5001/api/data/all-differences/");
-      let terms = data.data;
-      terms = terms.map((term) => term._id);
-      let paths = terms.map((term) => {
-      return {
-          params: { id: term}
-      }
-  })
-  return {
-    paths: [ ...paths
-    ],
-    fallback: false // See the "fallback" section below
-  };
-}
-
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const data = await axios.get(`http://localhost:5001/api/data/difference-doc/${context.params.id}`);
+  // Pass data to the page via props
   let comps = data.data
   return {
     props: {
@@ -58,7 +35,5 @@ export async function getStaticProps(context) {
     }, // will be passed to the page component as props
   }
 }
-
-
 
 export default Difference
