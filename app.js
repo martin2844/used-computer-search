@@ -9,9 +9,9 @@ const cors = require("cors");
 
 cron.schedule('* 12 * * *', () => {
   logger.info('Running at 12pm');
-  sendDifData();
+  
 });
-
+sendDifData();
 
 
 //body parser necessary to parse body for express
