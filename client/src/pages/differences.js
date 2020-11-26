@@ -24,7 +24,7 @@ const differences = (props) => {
 }
 
 export async function getServerSideProps() {
-    const data = await axios.get("http://localhost:5001/api/data/difference-terms/");
+    const data = await axios.get("https://api.think.martinchammah.dev/api/data/difference-terms/");
     let rawTerms = data.data;
     const termSet = new Set();
     rawTerms.forEach(term => termSet.add(term));

@@ -14,7 +14,7 @@ const check = () => {
             password: password
         }
         try {
-            let res = await axios.post(`http://localhost:5001/api/search/${term}`, body);
+            let res = await axios.post(`https://api.think.martinchammah.dev/api/search/${term}`, body);
             console.log(res);
             setResults(res.data);
         } catch (error) {

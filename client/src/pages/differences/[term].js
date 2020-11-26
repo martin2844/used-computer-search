@@ -27,7 +27,7 @@ const Difference = (props) => {
 export async function getServerSideProps(context) {
   console.log(context);
   let newTerm = context.params.term.replace(/-/g, " ");
-  const data = await axios.get(`http://localhost:5001/api/data/differences/${newTerm}`);
+  const data = await axios.get(`https://api.think.martinchammah.dev/api/data/differences/${newTerm}`);
   // Pass data to the page via props
   let comps = data.data
   return {
