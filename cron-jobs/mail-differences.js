@@ -5,14 +5,16 @@ const logger = require("../utils/logger")(module);
 
 const sendDifData = async () => {
     //First get all terms...
+    logger.info("BEFOR QUERY TYPES")
     const queryTypes = await Compare.find({type:"scratch"}, (err, query) => {
         return query;
     });
     //
+    logger.info("MAPPING TERMS")
     let terms = queryTypes.map((query) => {
        return query.query;
     });
-
+    logger.info("ABOUT TO CHECK DIFFERENCES")
     //Check if there are differences for each term
     const checkDifferences = async () => {
         const difPromises = []
@@ -21,7 +23,7 @@ const sendDifData = async () => {
                queryTerm(term)
             )
         })
-        Promise.all(difPromises).then(console.log("terms checked"));
+        Promise.all(difPromises).then(logger.info("terms checked")).catch(err => logger.error(JSON.stringify(err)));
     }
     // Checks differences
     checkDifferences();
@@ -29,6 +31,7 @@ const sendDifData = async () => {
  
 
     //Get Data from DB
+    logger.info("ABOUT TO  CHECK DIFFERENCES")
     const differencesQuery = await Compare.find({type: "difference"}, (err, query) => {
         //filter via mongoose-.
         return query;

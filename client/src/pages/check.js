@@ -4,7 +4,7 @@ import axios from 'axios'
 const check = () => {
     const [password, setPassword] = useState("");
     const [term, setTerm] = useState("");
-    const [results, setResults] = useState([]);
+    const [results, setResults] = useState();
     const [errorCode, setErrorCode] = useState("");
 
     const CheckDb = async (e, term) => {
@@ -23,12 +23,12 @@ const check = () => {
         }
       
     }
-    
+    console.log(results)
     return (
         <div>
             <section className="main column">
                 <br />
-                <h2>Check New Differences Manually</h2>
+                <h2>Query New Laptops</h2>
                 <form className="flex-col" onSubmit={e => CheckDb(e, term)}>
                     <input type="text" name="term" onChange={e => setTerm(e.target.value)} />
                     <label>Insert password</label>
@@ -36,10 +36,8 @@ const check = () => {
                     <button>Check</button>
                 </form>
             </section>
-            <div>  error: {errorCode}</div>
-            {JSON.stringify(results)}
-            {term}
-            {errorCode === "" ? "" : errorCode}
+            <div> {errorCode !== "" ? errorCode : null}</div>
+            {results ? <h1>Query Done</h1> : null}
         </div>
     )
 }

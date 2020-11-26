@@ -8,7 +8,7 @@ const cors = require("cors");
 
 
 cron.schedule('* 12 * * *', () => {
-  logger.info('Running at 12pm');
+  logger.info('Running CRON JOB 12pm');
   sendDifData();
 });
 

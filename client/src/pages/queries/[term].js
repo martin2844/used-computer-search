@@ -58,31 +58,7 @@ const Difference = (props) => {
   ) 
 }
 
-export async function getStaticPaths() {
-    //Acà se hace todo el mapeo
-    // https://nextjs.org/docs/basic-features/data-fetching#getstaticpaths-static-generation
-    const data = await axios.get("http://localhost:5001/api/data/terms");
-    let terms = data.data;
-        let paths = terms.map((term) => {
-        let newTerm = term.replace(/ /g, "-");
-        return {
-            params: { term: newTerm}
-        }
-    })
-    return {
-      paths: [ ...paths
-      ],
-      // paths: [
-      //   {params: {term: "thinkpad"}},
-      //   {params: {term: "thinkpad x240"}}
-        
-      // ],
-      fallback: false // See the "fallback" section below
-    };
-}
-
-
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
     console.log(context);
     let newTerm = context.params.term.replace(/-/g, " ");
     const data = await axios.get(`http://localhost:5001/api/data/all/${newTerm}`);

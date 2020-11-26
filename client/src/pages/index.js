@@ -27,7 +27,7 @@ export default function Index(props) {
 
 
 
-export async function getStaticProps(context) {
+export async function getServerSideProps() {
   const data = await axios.get("http://localhost:5001/api/data/terms");
   let terms = data.data;
   return {
