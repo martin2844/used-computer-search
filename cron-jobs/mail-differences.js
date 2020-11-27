@@ -43,9 +43,11 @@ const sendDifData = async () => {
     //If no Data log that there was no data
     if(differences.length === 0) {
         logger.info("There were no differences found")
+        return 
     } else {
         logger.info(`There was a total of ${differences.length} queries with differences found`);
         mail(differences, "martin2844@gmail.com");
+        return
 
     }
 

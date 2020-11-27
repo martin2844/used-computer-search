@@ -7,9 +7,21 @@ const logger = require('./utils/logger')(module)
 const cors = require("cors");
 
 
-cron.schedule('* 12 * * *', () => {
+cron.schedule('* 12 * * *', async () => {
+  let sent = false;
   logger.info('Running CRON JOB 12pm');
-  sendDifData();
+  if(!sent) {
+    await sendDifData();
+    sent = true;
+    logger.info("Set sent to true");
+  } else {
+    setTimeout(() => {
+      sent = false;
+    }, 3600000)
+    logger.info("Set sent to false");
+  }
+ 
+  logger.info("AWAITED CRON DIF DATA");
   return;
 });
 
