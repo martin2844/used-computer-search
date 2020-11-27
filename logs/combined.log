@@ -361,3 +361,33 @@
 2020-11-25T23:58:23.628Z [thinkpad-back-only\app.js] info: connected to database
 2020-11-27T12:25:50.300Z [thinkpad-back-only\app.js] info: Server started @ port5001
 2020-11-27T12:25:50.341Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T12:52:28.997Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T12:52:29.017Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T12:52:48.723Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T12:52:48.743Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T12:57:35.282Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T12:57:35.307Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T12:58:05.010Z [thinkpad-back-only\app.js] info: setting key
+2020-11-27T12:58:05.016Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-11-27T12:58:05.017Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-11-27T12:58:05.018Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-11-27T12:59:05.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-11-27T12:59:05.011Z [cron-jobs\mail-differences.js] info: BEFOR QUERY TYPES
+2020-11-27T12:59:05.110Z [cron-jobs\mail-differences.js] info: MAPPING TERMS
+2020-11-27T12:59:05.112Z [cron-jobs\mail-differences.js] info: ABOUT TO CHECK DIFFERENCES
+2020-11-27T12:59:05.125Z [cron-jobs\mail-differences.js] info: terms checked
+2020-11-27T12:59:05.126Z [cron-jobs\mail-differences.js] info: ABOUT TO  CHECK DIFFERENCES
+2020-11-27T12:59:05.172Z [cron-jobs\mail-differences.js] info: There was a total of 44 queries with differences found
+2020-11-27T12:59:05.192Z [thinkpad-back-only\app.js] info: Set sent to ues
+2020-11-27T12:59:05.194Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-11-27T13:00:05.012Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-11-27T13:00:05.017Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-11-27T13:00:05.018Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-11-27T13:00:51.109Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T13:00:51.130Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T13:01:02.090Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T13:01:02.113Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T13:01:29.866Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T13:01:29.887Z [thinkpad-back-only\app.js] info: connected to database
+2020-11-27T13:01:57.311Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-11-27T13:01:57.334Z [thinkpad-back-only\app.js] info: connected to database

@@ -5,20 +5,34 @@ const cron = require('node-cron');
 const sendDifData = require('./cron-jobs/mail-differences');
 const logger = require('./utils/logger')(module)
 const cors = require("cors");
+const redis = require('redis');
+const util = require('util');
+
+//Initialize Redis
+const redisUrl = 'redis://127.0.0.1:6379';
+const client = redis.createClient(redisUrl);
+client.get = util.promisify(client.get);
+const cronKey = "cron";
+
+//Initialize Key
 
 
 cron.schedule('* 12 * * *', async () => {
-  let sent = false;
-  logger.info('Running CRON JOB 12pm');
+  let sent = await client.get(cronKey);
+
   if(!sent) {
+    logger.info("setting key first time")
+    await client.set(cronKey, "no");
+  }
+
+  logger.info('Running CRON JOB 12pm');
+
+  if(sent === "no") {
     await sendDifData();
-    sent = true;
-    logger.info("Set sent to true");
+    await client.set(cronKey, "yes", 'EX', 60 * 60);
+    logger.info("Set sent to ues");
   } else {
-    setTimeout(() => {
-      sent = false;
-    }, 3600000)
-    logger.info("Set sent to false");
+    logger.info("ALLREADY SENT!! ")
   }
  
   logger.info("AWAITED CRON DIF DATA");

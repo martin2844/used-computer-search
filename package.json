@@ -24,6 +24,7 @@
     "mongoose": "^5.9.7",
     "node-cron": "^2.0.3",
     "nodemailer": "^6.4.5",
+    "redis": "^3.0.2",
     "winston": "^3.3.3"
   },
   "nodemonConfig": {
