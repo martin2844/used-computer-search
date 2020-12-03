@@ -391,3 +391,11 @@
 2020-11-27T13:01:29.887Z [thinkpad-back-only\app.js] info: connected to database
 2020-11-27T13:01:57.311Z [thinkpad-back-only\app.js] info: Server started @ port5001
 2020-11-27T13:01:57.334Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-03T12:49:33.946Z [cron-jobs\mail-differences.js] info: BEFOR QUERY TYPES
+2020-12-03T12:49:33.964Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-03T12:49:33.987Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-03T12:49:34.024Z [cron-jobs\mail-differences.js] info: MAPPING TERMS
+2020-12-03T12:49:34.025Z [cron-jobs\mail-differences.js] info: ABOUT TO CHECK DIFFERENCES
+2020-12-03T12:49:34.029Z [cron-jobs\mail-differences.js] info: terms checked
+2020-12-03T12:49:34.030Z [cron-jobs\mail-differences.js] info: ABOUT TO  CHECK DIFFERENCES
+2020-12-03T12:49:34.110Z [cron-jobs\mail-differences.js] info: There was a total of 53 queries with differences found
