@@ -7,7 +7,6 @@ const logger = require('./utils/logger')(module)
 const cors = require("cors");
 const redis = require('redis');
 const util = require('util');
-
 //Initialize Redis
 const redisUrl = 'redis://127.0.0.1:6379';
 const client = redis.createClient(redisUrl);
@@ -38,7 +37,6 @@ cron.schedule('* 12 * * *', async () => {
   logger.info("AWAITED CRON DIF DATA");
   return;
 });
-
 
 
 //body parser necessary to parse body for express

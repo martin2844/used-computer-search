@@ -28,6 +28,16 @@ const sendDifData = async () => {
     // Checks differences
     checkDifferences();
 
+    async function checkOLD() {
+        //Deletes entries of difference older than 10 days.
+        const oldDifferences = await Compare.deleteMany({type: "difference", $where: function() {
+          return (new Date(this.date) < new Date(Date.now() - 10*24*60*60 * 1000));
+      }})
+    
+      }
+      
+      checkOLD();
+      
  
 
     //Get Data from DB

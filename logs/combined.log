@@ -399,3 +399,23 @@
 2020-12-03T12:49:34.029Z [cron-jobs\mail-differences.js] info: terms checked
 2020-12-03T12:49:34.030Z [cron-jobs\mail-differences.js] info: ABOUT TO  CHECK DIFFERENCES
 2020-12-03T12:49:34.110Z [cron-jobs\mail-differences.js] info: There was a total of 53 queries with differences found
+2020-12-06T23:22:55.174Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:22:55.193Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:23:28.806Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:23:28.827Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:23:44.080Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:23:44.102Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:23:47.589Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:23:47.612Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:23:52.998Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:23:53.033Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:24:06.905Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:24:06.926Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:26:15.989Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:26:16.011Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:26:33.319Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:26:33.336Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:26:35.370Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:26:35.394Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-06T23:26:42.076Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-06T23:26:42.102Z [thinkpad-back-only\app.js] info: connected to database
