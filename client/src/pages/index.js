@@ -15,13 +15,28 @@ export default function Index(props) {
   })
 
   return (
-      <div>
-        <h1>Checkout all this computers:</h1>
-        <ul>
+      <section className="main column">
+        <h1>Personal Meli Used Computer Search</h1>
+        <div className="features">
+            <div>
+              Check only used computers
+            </div>
+            <div>
+              Create, save queries and access them super fast
+            </div>
+            <div>
+              Check daily differences, be the first to know when a new item is posted
+            </div>
+            <div>
+              Receive daily differences via mail at 9am
+            </div>
+        </div>
+        <h3>Saved Queries:</h3>
+        <ul className="query-map">
            {termMap}
         </ul>
       
-      </div>
+      </section>
   )
 }
 

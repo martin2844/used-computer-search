@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import axios from 'axios';
 import Link from 'next/link'
+import dayjs from 'dayjs';
 
 const Difference = (props) => {
 
@@ -8,16 +9,17 @@ const Difference = (props) => {
   const { term } = router.query
 
   const diffMap = props.data.map((x) => {
+    let theDate = dayjs(x.date).format('DD/MM/YYYY')
     return (
-    <li key={x._id}><Link href={`/differences/id/${x._id}`}><a>{x.date}</a></Link></li>
+    <li key={x._id}><Link href={`/differences/id/${x._id}`}><a>{theDate}</a></Link></li>
     )
   })
   
 
   return(
     <section className="main column">
-              <p>Page for all differences of {term}</p>
-              <ul>
+              <h3>Page for all differences of {term}</h3>
+              <ul className="query-map differences">
                 {diffMap}
               </ul>
       </section>

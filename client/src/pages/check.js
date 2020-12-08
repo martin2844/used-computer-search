@@ -30,14 +30,16 @@ const check = () => {
                 <br />
                 <h2>Query New Laptops</h2>
                 <form className="flex-col" onSubmit={e => CheckDb(e, term)}>
+                    <label>Query Term</label>
                     <input type="text" name="term" onChange={e => setTerm(e.target.value)} />
-                    <label>Insert password</label>
+                    <label>Provide password</label>
                     <input type="password" name="pass" onChange={e => setPassword(e.target.value)} />
-                    <button>Check</button>
+                    <button className="check-btn">Check</button>
                 </form>
+                <div> {errorCode !== "" ? errorCode : null}</div>
+            {results ? <h1 className="master">Query Done</h1> : null}
             </section>
-            <div> {errorCode !== "" ? errorCode : null}</div>
-            {results ? <h1>Query Done</h1> : null}
+           
         </div>
     )
 }

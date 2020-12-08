@@ -17,8 +17,10 @@ const differences = (props) => {
 
     return (
         <section className="main column">
-            <p>Diferencias de: </p>
+              <h3>Differences of:</h3>
+              <ul className="query-map">
             {termMap}
+            </ul>
         </section>
     )
 }

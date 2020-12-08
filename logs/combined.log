@@ -419,3 +419,171 @@
 2020-12-06T23:26:35.394Z [thinkpad-back-only\app.js] info: connected to database
 2020-12-06T23:26:42.076Z [thinkpad-back-only\app.js] info: Server started @ port5001
 2020-12-06T23:26:42.102Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-08T15:06:50.437Z [thinkpad-back-only\app.js] info: Server started @ port5001
+2020-12-08T15:06:50.543Z [thinkpad-back-only\app.js] info: connected to database
+2020-12-08T15:07:00.006Z [thinkpad-back-only\app.js] info: setting key first time
+2020-12-08T15:07:00.007Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:07:00.008Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:07:00.008Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:08:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:08:00.003Z [cron-jobs\mail-differences.js] info: BEFOR QUERY TYPES
+2020-12-08T15:08:00.185Z [cron-jobs\mail-differences.js] info: MAPPING TERMS
+2020-12-08T15:08:00.186Z [cron-jobs\mail-differences.js] info: ABOUT TO CHECK DIFFERENCES
+2020-12-08T15:08:00.191Z [cron-jobs\mail-differences.js] info: terms checked
+2020-12-08T15:08:00.192Z [cron-jobs\mail-differences.js] info: ABOUT TO  CHECK DIFFERENCES
+2020-12-08T15:08:00.252Z [cron-jobs\mail-differences.js] info: There was a total of 19 queries with differences found
+2020-12-08T15:08:00.271Z [thinkpad-back-only\app.js] info: Set sent to ues
+2020-12-08T15:08:00.272Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:09:00.006Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:09:00.009Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:09:00.009Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:10:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:10:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:10:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:11:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:11:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:11:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:12:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:12:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:12:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:13:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:13:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:13:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:14:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:14:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:14:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:15:00.004Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:15:00.005Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:15:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:16:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:16:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:16:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:17:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:17:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:17:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:18:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:18:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:18:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:19:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:19:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:19:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:20:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:20:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:20:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:21:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:21:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:21:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:22:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:22:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:22:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:23:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:23:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:23:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:24:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:24:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:24:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:25:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:25:00.005Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:25:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:26:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:26:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:26:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:27:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:27:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:27:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:28:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:28:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:28:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:29:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:29:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:29:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:30:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:30:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:30:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:31:00.001Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:31:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:31:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:32:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:32:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:32:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:33:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:33:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:33:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:34:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:34:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:34:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:35:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:35:00.005Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:35:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:36:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:36:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:36:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:37:00.001Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:37:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:37:00.002Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:38:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:38:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:38:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:39:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:39:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:39:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:40:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:40:00.005Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:40:00.006Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:41:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:41:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:41:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:42:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:42:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:42:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:43:00.006Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:43:00.006Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:43:00.006Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:44:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:44:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:44:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:45:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:45:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:45:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:46:00.001Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:46:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:46:00.002Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:47:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:47:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:47:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:48:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:48:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:48:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:49:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:49:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:49:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:50:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:50:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:50:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:51:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:51:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:51:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:52:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:52:00.005Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:52:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:53:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:53:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:53:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:54:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:54:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:54:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:55:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:55:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:55:00.005Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:56:00.003Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:56:00.004Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:56:00.004Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:57:00.001Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:57:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:57:00.002Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:58:00.001Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:58:00.002Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:58:00.002Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
+2020-12-08T15:59:00.002Z [thinkpad-back-only\app.js] info: Running CRON JOB 12pm
+2020-12-08T15:59:00.003Z [thinkpad-back-only\app.js] info: ALLREADY SENT!! 
+2020-12-08T15:59:00.003Z [thinkpad-back-only\app.js] info: AWAITED CRON DIF DATA
